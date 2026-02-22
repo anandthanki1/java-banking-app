@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 public class Bank {
 
-  HashMap<Integer, Account> accounts;
-  Integer nextAccountNumber;
+  private HashMap<Integer, Account> accounts;
+  private Integer nextAccountNumber;
 
   Bank() {
     this.accounts = new HashMap<>();
